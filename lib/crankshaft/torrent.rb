@@ -7,6 +7,7 @@ module Crankshaft
     ATTRS = [
       :addedDate, :comment, :creator, :dateCreated, :files, :hashString, :id, :isPrivate,
       :magnetLink, :name, :pieceCount, :pieceSize, :startDate, :trackers, :totalSize
+      :leftUntilDone
     ]
 
     def initialize(session, attrs = {})
